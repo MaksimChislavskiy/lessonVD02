@@ -1,0 +1,50 @@
+.user-card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+.user-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background-color: #f0f0f0;
+        }
+
+.user-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4CAF50;
+            margin: 0 auto 15px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+.user-card:hover .user-photo {
+            border-color: #45a049;
+            transform: scale(1.05);
+        }
+
+.user-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #333;
+        }
+
+.user-info {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+.user-info strong {
+            color: #333;
+        }
